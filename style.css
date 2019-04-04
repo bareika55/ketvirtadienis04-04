@@ -1,0 +1,15 @@
+*{
+	box-sizing: border-box;
+}
+.row::after{
+	content: "";
+	clear:both;
+	display: table;
+}
+[class*="col-"]{
+	float: left;
+	padding: 15px;
+}
+.col-1{width: 8.33%;
+border:0.9px solid black;
+text-align: center;}
